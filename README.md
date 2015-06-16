@@ -1,5 +1,5 @@
 # Blogger
-Just an other blogging system in Java but stored entirely in-memory. 
+Just an other blogging system in Java but stored in-memory.. buh.. 
 Supports:
 - adding new Post,labels,comments
 - retrieving posts, posts for particular labels and users etc
