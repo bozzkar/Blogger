@@ -9,22 +9,22 @@ No proper user management system included yet
 
 # Usage Examples
 
- -Create a new user
+ - Create a new user:
   UUID u=b.SignUpUser("Baskar");
   
- -Submit a new post
+ - Submit a new post:
   UUID x=b.SubmitPost("Hello world", u);
  
- -Add comment/list of comments to a post  
+ - Add comment/list of comments to a post:
   b.AddCommentToPost("intro", x);
 
- -Add label/list of labels to a post  
+ - Add label/list of labels to a post:
   b.AddLabelToPost("computer", x);
 
- -Get the labels of a post
+ - Get the labels of a post:
   b.GetLabelsOfPost(x)
  
- -Get the posts with a label and by a user
+ - Get the posts with a label and by a user:
   b.GetPostsWithLabelOfUser("computer", u)
   
  And more...
