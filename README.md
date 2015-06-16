@@ -7,7 +7,7 @@ Supports:
 
 No prpoer user management system included yet
 
-Usage Examples
+# Usage Examples
 
  Create a new user
   UUID u=b.SignUpUser("Baskar");
